@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ! Nav */
+
+nav {
+    width: 100%;
+    height: 115px;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-row ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-row ul li {
+    font-family: "Roboto";
+    padding: 3px 0;
+    transition: .5s;
+
+}
+
+.nav-row ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-row ul li:hover,
+.nav-row .deliver p:hover {
+    transform: scale(1.1);
+}
+
+.nav-row .deliver {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-row .deliver p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Roboto";
+    transition: .5s;
+}
+
+.nav-row img {
+    width: 113px;
+    height: 25px;
+    transition: .5s;
+}
+
+.nav-row img:hover {
+    transform: scale(1.03);
+    
+}
+
+.bg-menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    gap: 55px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    padding: 0 28px;
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.menu span:hover {
+    transform: scale(1.2);
+}
+
+.menu .act {
+    color: rgb(215, 68, 68);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu span .menu-logo {
+    font-size: 20px;
+}
+
+.search {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    transition: .5s;
+}
+
+.search input {
+    width: 280px;
+    height: 40px;
+    padding: 17px 50px;
+}
+
+.search:hover {
+    transform: scale(1.03);
+}
+
+.search span {
+    font-size: 25px;
+    position: relative;
+    bottom: -8px;
+    right: -40px;
+}
+
+.user-bar {
+    width: 112px;
+    height: 18px;
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+.user-bar span {
+    transition: .5s;
+}
+
+.user-bar span:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.user-bar .red-circle {
+    width: 8px;
+    height: 8px;
+    background: rgb(215, 68, 68);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    right: -18px;
+}
+
+.aksya {
+    color: red;
+}
+
+.foter-texts p {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414141da;
+    padding: 8px 0;
+}
+
+.foter-texts {
+    display: flex;
+    gap: 40px;
+}
+
+.texts {
+    margin-top: 34px;
+}
+
+.span1 {
+    display: flex;
+    gap: 23px;
+    padding: 20px 0;
+}
+
+.lm {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.end-texts {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 171px;
+    height: 54px;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-end span {
+    display: flex;
+    align-items: center;
+}
+
+.call-insta {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.texts5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.texts01 {
+    color: rgb(150, 150, 150);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.texts02 {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    gap: 7px;
+}
+
+form label {
+    color: #969696;
+    color: rgb(150, 150, 150);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+form input {
+    /* inner-shadow */
+    box-shadow: inset 1px 1px 5px 0px rgba(0, 0, 0, 0.07);
+    background: rgb(231, 231, 231);
+    width: 207px;
+    height: 38px;
+    border: none;
+    padding: 0 10px;
+}
+
+.textarea {
+    color: rgb(150, 150, 150);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+textarea {
+    max-width: 420px;
+    max-height: 120px;
+    border: 0;
+    background: rgb(216, 216, 216);
+    padding: 10px 10px;
+}
+
+.btn1 {
+    border: 0;
+    /* menu-shadow */
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.356);
+    background: rgb(247, 247, 247);
+    padding: 13px 20px 12px 20px;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.btn2:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+.btn1:active {
+    background-color: #1a1a1a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn2:active {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s;
+    border: #000 1px solid;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+    margin-left: 138px;
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 13px 20px 12px 20px;
+    border: 0;
+
+    /* main-color */
+    background: rgb(36, 84, 98);
+    color: #fff;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    gap: 99px;
+    margin-bottom: 20px;
+}
+
+.content-left span {
+    display: flex;
+    gap: 10px;
+
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+.title3 {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 64px;
+    font-weight: 400;
+}
+
+.carta-img {
+    margin-top: 30px;
+    width: 1140px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid rgb(225, 225, 225);
+}

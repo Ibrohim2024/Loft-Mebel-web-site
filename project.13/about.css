@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ! Nav */
+
+nav {
+    width: 100%;
+    height: 115px;
+}
+
+.nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-row ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-row ul li {
+    font-family: "Roboto";
+    padding: 3px 0;
+    transition: .5s;
+
+}
+
+.nav-row ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-row ul li:hover,
+.nav-row .deliver p:hover {
+    transform: scale(1.1);
+}
+
+.nav-row .deliver {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-row .deliver p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Roboto";
+    transition: .5s;
+}
+
+.nav-row img {
+    width: 113px;
+    height: 25px;
+    transition: .5s;
+}
+
+.nav-row img:hover {
+    transform: scale(1.03);
+
+}
+
+.bg-menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    gap: 55px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    padding: 0 28px;
+    color: rgb(65, 65, 65);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.menu span:hover {
+    transform: scale(1.2);
+}
+
+.menu .act {
+    color: rgb(215, 68, 68);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu span .menu-logo {
+    font-size: 20px;
+}
+
+.search {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    transition: .5s;
+}
+
+.search input {
+    width: 280px;
+    height: 40px;
+    padding: 17px 50px;
+}
+
+.search:hover {
+    transform: scale(1.03);
+}
+
+.search span {
+    font-size: 25px;
+    position: relative;
+    bottom: -8px;
+    right: -40px;
+}
+
+.user-bar {
+    width: 112px;
+    height: 18px;
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+}
+
+.user-bar span {
+    transition: .5s;
+}
+
+.user-bar span:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.user-bar .red-circle {
+    width: 8px;
+    height: 8px;
+    background: rgb(215, 68, 68);
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    right: -18px;
+}
+
+.aksya {
+    color: red;
+}
+
+.foter-texts p {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: #414141da;
+    padding: 8px 0;
+}
+
+.foter-texts {
+    display: flex;
+    gap: 40px;
+}
+
+.texts {
+    margin-top: 34px;
+}
+
+.span1 {
+    display: flex;
+    gap: 23px;
+    padding: 20px 0;
+}
+
+.lm {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.end-texts {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 171px;
+    height: 54px;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-end span {
+    display: flex;
+    align-items: center;
+}
+
+.call-insta {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.texts5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.texts01 {
+    color: rgb(150, 150, 150);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.texts02 {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    gap: 7px;
+}
+
+
+/* !main */
+
+.shop {
+    color: rgb(36, 84, 98);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tittle {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    width: 421px;
+    height: 56px;
+    margin-top: 30px;
+}
+
+.tittle-out {
+    color: rgb(104, 104, 104);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 421px;
+    height: 180px;
+    margin-top: 15px;
+}
+
+.contents {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 300px;
+}
+
+.content-left {
+    width: 650px;
+    position: absolute;
+    align-items: center;
+    right: 00px;
+    z-index: -1;
+    height: 450px;
+    background: rgb(215, 232, 237);
+
+}
+
+.content-mid {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: 259px;
+    bottom: 402px;
+}
+
+.content-mid img {
+    width: 709px;
+    height: 400px;
+}
+
+/* !content-end */
+
+
+.block0 img {
+    width: 68px;
+    height: 68px;
+}
+
+.block0 {
+    display: flex;
+    gap: 30px;
+}
+
+.block0-info {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.block0-text {
+    color: rgb(104, 104, 104);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 440px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.info-text {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.info-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+
+.wrapper {
+    background: rgb(215, 232, 237);
+    width: 100%;
+    height: 800px;
+
+}
+
+.texts-01 h1 {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 521px;
+
+}
+
+.texts-info-out {
+    margin-top: 80px;
+}
+
+.texts-01 span {
+    display: block;
+    width: 51px;
+    height: 2px;
+    background: rgb(36, 84, 98);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 620px;
+}
+
+.parag {
+    color: rgb(104, 104, 104);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 540px;
+    height: 100px;
+    text-align: center;
+    margin-left: 400px;
+
+}
+
+.texts-info-out {
+    padding: 80px 0;
+    margin: 0 auto;
+}
+
+.texts-01 {
+    margin-top: 67px;
+}
+
+
+.out-card {
+    margin-top: 80px;
+}
+
+.card {
+    width: 545px;
+    height: 141px;
+    background-color: rgb(224, 224, 224);
+    padding: 25px 26px 25px 26px;
+    position: relative;
+}
+
+.card .out-tittle {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card .out-text {
+    color: rgb(104, 104, 104);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 494px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.out-img {
+    padding: 13px 13px 13px 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 118px;
+    right: 513px;
+}
+
+.out-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+
+.cards {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 70px;
+    margin-bottom: 60px;
+    gap: 50px;
+    width: 330px;
+    height: 100px;
+}
+
+.last-cards {
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 80px;
+    margin-bottom: 40px;
+    gap: 30px;
+    width: 330px;
+    height: 100px;
+}
+
+.last-cards img {
+    position: absolute;
+    top: 15px;
+    left: -50px;
+}
+
+.cards-tittle {
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text-card {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 281px;
+    height: 100px;
+    position: relative;
+}
+
+.cards-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+
+}
+
+.tittle-card {
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.end-text {
+    color: rgb(65, 65, 65);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 150px;
+    text-align: center;
+    margin-top: 150px;
+
+}
